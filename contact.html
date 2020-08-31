@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Glozzom</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>    
+
+        </div>
+    </nav>
+    <div class="container-md">
+        <form>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault01">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault02">Last name</label>
+                <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault03">State</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault04">city</label>
+                <select class="custom-select" id="validationDefault04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Khiva</option>
+                  <option>Toshkent</option>
+                  <option>New-York</option>
+                  <option>California</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault05">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>    
+    </div>
+
+
+
+
+
+</body>
+</html>
